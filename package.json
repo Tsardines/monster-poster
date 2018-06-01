@@ -1,0 +1,12 @@
+{
+  "name": "monster-poster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Tsardines/monster-poster.git",
+  "author": "Haley Sulcer <hjsulcer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.4.1"
+  }
+}

@@ -4,6 +4,8 @@ body {
 
 .big-container {
   background-color: orange;
+  /* transform-style: preserve-3d;
+  transform: translateZ(20px) */
   /* height: 100%; */
   /* margin: 0 auto; */
   width: 100%;
@@ -12,10 +14,19 @@ body {
 /* ======= Intro Text ======= */
 
 .intro-text p {
+  color: white;
   font-size: 40px;
   text-align: center;
 }
 
+/* ======= Me ======= */
+
+.me {
+  background-color: blue;
+  color: white;
+  height: 200px;
+  width: 400px;
+}
 
 /* ======= Title ======= */
 
@@ -47,29 +58,46 @@ body {
 
 .p1 {
   background-color: blue;
-  height: 175px;
+  background-size: cover;
+  height: 100%;
+  object-fit: contain;
   transform: rotate(12deg);
-  width: 300px;
+}
+
+.p1 img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .p2 {
   background-color: turquoise;
-  height: 175px;
   margin-top: 10px;
+  max-height: 100%;
+  max-width: 100%;
   transform: rotate(7deg);
-  width: 300px;
+}
+
+.p2 img {
+  object-fit: contain;
+  width: 100%;
 }
 
 .p3 {
   background-color: pink;
-  height: 175px;
+  max-height: 100%;
+  max-width: 100%;
   transform: rotate(3deg);
-  width: 300px;
+}
+
+.p3 img {
+  object-fit: contain;
+  width: 100%;
 }
 
 /* ======= Tech ======= */
 
 .starring-container {
+  color: turquoise;
   display: flex;
   flex-wrap: wrap;
   text-transform: uppercase;

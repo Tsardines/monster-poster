@@ -12,16 +12,32 @@
 
 <body>
 
-<div class="big-container">
+
+
+<div class="big-container" data-tilt data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
 
 <div class="intro-text">
   <p>Lorem ipsum dolor sit amet<br>...consectetur adipisicing elit!</p>
 </div>
 
+<div class="me" data-tilt>
+  <img src="#" alt="this is where my pic will be">
+</div>
+
 <div class="projects">
-  <div class="p1">1</div>
-  <div class="p2">2</div>
-  <div class="p3">3</div>
+
+  <div class="p1">
+    <img src="images/pcwizard" alt="wizard">
+  </div>
+
+  <div class="p2">
+    <img src="images/marvel" alt="marvel">
+  </div>
+
+  <div class="p3">
+    <img src="images/hacker.jpg" alt="hacker">
+  </div>
+
 </div>
 
 <div class="title">
@@ -37,6 +53,7 @@
       <li>Ruby</li>
     </ul>
   </div>
+
 
   <div class="co-starring">
     <ul>
@@ -59,6 +76,13 @@
 
 
 
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".big-container"), {
+		max: 25,
+		speed: 400
+	});
+</script>
 
 </body>
 
