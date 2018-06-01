@@ -1,0 +1,24 @@
+.big-container {
+  background-color: orange;
+  height: 100%;
+margin: 0 auto;
+  width: 100%;
+}
+
+.p1 {
+  background-color: blue;
+  height: 175px;
+  width: 300px;
+}
+
+.p2 {
+  background-color: turquoise;
+  height: 175px;
+  width: 300px;
+}
+
+.p3 {
+  background-color: pink;
+  height: 175px;
+  width: 300px;
+}
